@@ -1,6 +1,7 @@
 # 7.7 lesson
 
-# this is just an experiment
+* Did hometask
+* learned to do fbv(function based view) and writing Readme file
 
-# actually, everything i've done so far, everything is just the part of the experiment
-# This is my first time writing Readme file
+* It's not finished yet, but did main crud(create, read, update delete) methods to the planet app but star app is still remaining.
+*Breakfast time
