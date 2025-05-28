@@ -6,3 +6,8 @@ class StarSerializer(ModelSerializer):
         model = Star
         fields = '__all__'
         read_only_fields = ['slug']
+
+class StarListSerializer(ModelSerializer):
+    class Meta:
+        model = Star
+        fields = ['name', 'slug']

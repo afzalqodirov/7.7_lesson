@@ -15,4 +15,7 @@ urlpatterns = [
         path('admin/', admin.site.urls),
         path('planets/', include('Milky_Way.planets.urls')),
         path('stars/', include('Milky_Way.stars.urls')),
+        path('accounts/', include('accounts.urls')),
+        path('token/', TokenObtainPairView.as_view()),
+        path('token/refresh/', TokenRefreshView.as_view()),
 ]
